@@ -1,379 +1,553 @@
-body {background-color: #182430;}
+body {
+    background-color: #192531;
+}
 
 .kitchen {
-	position: relative;
+    position: relative;
 }
 
 .pattern {
-   position: absolute; top:0; left: 0;
-   width: auto;
-   height: 500px;
-   padding-top: 100px;
-   padding-left: 350px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: auto;
+    height: 500px;
+    padding-top: 100px;
+    padding-left: 350px;
 }
 
 #gas_stove_and_sink {
-      position: absolute; top:0; left: 0;
-   width: auto;
-   height: 500px;
-   padding-top: 100px;
-   padding-left: 350px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: auto;
+    height: 500px;
+    padding-top: 100px;
+    padding-left: 350px;
 }
 
 #top_shelf1 {
-	width: 118px;
-	height: 70px;
+    width: 118px;
+    height: 70px;
 
-	padding-top: 100px;
-   padding-left: 350px;
-   position: absolute; top:0; left: 0;
+    padding-top: 100px;
+    padding-left: 350px;
+    position: absolute;
+    top: 0;
+    left: 0;
 
 
-   transform: skewx(1deg) translatex(6px) translatey(10px);
+    transform: skewx(1deg) translatex(6px) translatey(10px);
 }
 
 #top_shelf2 {
-	width: 117px;
-	height: 70px;
+    width: 117px;
+    height: 70px;
 
-	padding-top: 100px;
-   padding-left: 350px;
-   position: absolute; top:0; left: 0;
-   transform:skewx(1deg) translatex(125px) translatey(10px);
+    padding-top: 100px;
+    padding-left: 350px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: skewx(1deg) translatex(125px) translatey(10px);
 }
 
 #top_shelf3 {
-	width: 117px;
-	height: 70px;
+    width: 117px;
+    height: 70px;
 
-	padding-top: 100px;
-   padding-left: 350px;
-   position: absolute; top:0; left: 0;
-   transform: translatex(245px) translatey(10px);
+    padding-top: 100px;
+    padding-left: 350px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translatex(245px) translatey(10px);
 }
 
 #top_shelf4 {
-	width: 117px;
-	height: 70px;
+    width: 117px;
+    height: 70px;
 
-	padding-top: 100px;
-   padding-left: 350px;
-   position: absolute; top:0; left: 0;
-   transform:skewx(-1deg) translatex(483px) translatey(10px);
+    padding-top: 100px;
+    padding-left: 350px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: skewx(-1deg) translatex(483px) translatey(10px);
 }
 
 #tall_shelf1 {
-	width: 117px;
-	height: 202px;
+    width: 117px;
+    height: 202px;
 
-	padding-top: 100px;
-   padding-left: 350px;
-   position: absolute; top:0; left: 0;
-   transform: translatex(363px) translatey(10px);
+    padding-top: 100px;
+    padding-left: 350px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translatex(363px) translatey(10px);
 }
 
 #tall_shelf2 {
-   width: 109px;
-   height: 201px;
+    width: 109px;
+    height: 201px;
 
-   padding-top: 100px;
-   padding-left: 358px;
-   position: absolute; top:0; left: 0;
-   transform: skewX(-2deg) translatex(363px) translatey(10px);
+    padding-top: 100px;
+    padding-left: 358px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: skewX(-2deg) translatex(363px) translatey(10px);
 }
 
 #mid_shelf1 {
-	width: 114px;
-	height: 131px;
+    width: 114px;
+    height: 131px;
 
-	padding-top: 171px;
-   padding-left: 241px;
-   position: absolute; top:0; left: 0;
-   transform:skewx(1deg) translatex(125px) translatey(10px);
+    padding-top: 171px;
+    padding-left: 241px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: skewx(1deg) translatex(125px) translatey(10px);
 }
 
 #mid_shelf2 {
-	width: 90px;
-	height: 131px;
+    width: 90px;
+    height: 131px;
 
-	padding-top: 171px;
-   padding-left: 356px;
-   position: absolute; top:0; left: 0;
-   transform:skewx(1deg) translatex(125px) translatey(10px);
+    padding-top: 171px;
+    padding-left: 356px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: skewx(1deg) translatex(125px) translatey(10px);
 }
 
 #mid_shelf2_2 {
-   width: 80px;
-   height: 131px;
+    width: 80px;
+    height: 131px;
 
-   padding-top: 171px;
-   padding-left: 391px;
-   position: absolute; top:0; left: 0;
-   transform: translatex(125px) translatey(10px);
+    padding-top: 171px;
+    padding-left: 391px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translatex(125px) translatey(10px);
 }
 
 #mid_shelf3 {
-	width: 114px;
-	height: 121px;
+    width: 114px;
+    height: 121px;
 
-	padding-top: 171px;
-   padding-left: 469px;
-   position: absolute; top:0; left: 0;
-   transform: translatex(128px) translatey(10px);
+    padding-top: 171px;
+    padding-left: 469px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translatex(128px) translatey(10px);
 }
 
 #skirting1 {
-	width: 100px;
-	height: 101px;
+    width: 100px;
+    height: 101px;
 
-	padding-top: 303px;
-   padding-left: 356px;
-   position: absolute; top:0; left: 0;
+    padding-top: 303px;
+    padding-left: 356px;
+    position: absolute;
+    top: 0;
+    left: 0;
 
-   transform: skewx(1deg) translatex(20px) translatey(10px);
+    transform: skewx(1deg) translatex(20px) translatey(10px);
 
 }
 
 #skirting2 {
-   width: 100px;
-   height: 101px;
+    width: 100px;
+    height: 101px;
 
-   padding-top: 303px;
-   padding-left: 456px;
-   position: absolute; top:0; left: 0;
+    padding-top: 303px;
+    padding-left: 456px;
+    position: absolute;
+    top: 0;
+    left: 0;
 
-   transform: translatex(20px) translatey(10px);
+    transform: translatex(20px) translatey(10px);
 
 }
 
 #skirting3 {
-   width: 150px;
-   height: 101px;
+    width: 150px;
+    height: 101px;
 
-   padding-top: 303px;
-   padding-left: 540px;
-   position: absolute; top:0; left: 0;
+    padding-top: 303px;
+    padding-left: 540px;
+    position: absolute;
+    top: 0;
+    left: 0;
 
-   transform: translatex(20px) translatey(10px);
+    transform: translatex(20px) translatey(10px);
 }
 
 #tabletop1 {
-   width: 263px;
-   height: 19px;
+    width: 263px;
+    height: 19px;
 
-   padding-top: 414px;
-   padding-left: 564px;
-   position: absolute; top:0; left: 0;
-   transform: skewX(-43deg);
+    padding-top: 414px;
+    padding-left: 564px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: skewX(-43deg);
 }
 
 #tabletop2 {
-   width: 89px;
-   height: 19px;
+    width: 89px;
+    height: 19px;
 
-   padding-top: 414px;
-   padding-left: 600px;
-   position: absolute; top:0; left: 0;
-   transform: skewX(6deg);
+    padding-top: 414px;
+    padding-left: 600px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: skewX(6deg);
 }
 
 #bot_shelf1 {
-   width: 114px;
-   height: 131px;
+    width: 114px;
+    height: 131px;
 
-   padding-top: 441px;
-   padding-left: 362px;
-   position: absolute; top:0; left: 0;
+    padding-top: 441px;
+    padding-left: 362px;
+    position: absolute;
+    top: 0;
+    left: 0;
 
-   transform:skewX(1deg); translatex(20px) translatey(10px);
+    transform: skewX(1deg);
+    translatex(20px) translatey(10px);
 }
 
 #tabletop_frame {
-   width: 350px;
-   height: 6px;
+    width: 350px;
+    height: 6px;
 
-   padding-top: 434px;
-   padding-left: 362px;
-   position: absolute; top:0; left: 0;
+    padding-top: 434px;
+    padding-left: 362px;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 
 #bot_shelf2 {
-   width: 76px;
-   height: 131px;
+    width: 76px;
+    height: 131px;
 
-   padding-top: 441px;
-   padding-left: 477px;
-   position: absolute; top:0; left: 0;
+    padding-top: 441px;
+    padding-left: 477px;
+    position: absolute;
+    top: 0;
+    left: 0;
 
-   transform:skewX(1deg); translatex(20px) translatey(10px);
+    transform: skewX(1deg);
+    translatex(20px) translatey(10px);
 }
 
 #bot_shelf3 {
-   width: 115px;
-   height: 65px;
+    width: 115px;
+    height: 65px;
 
-   padding-top: 441px;
-   padding-left: 558px;
-   position: absolute; top:0; left: 0;
+    padding-top: 441px;
+    padding-left: 558px;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 
 #bot_shelf4 {
-   width: 114px;
-   height: 65px;
+    width: 114px;
+    height: 65px;
 
-   padding-top: 507px;
-   padding-left: 554px;
-   position: absolute; top:0; left: 0;
-   transform:skewX(1deg);
+    padding-top: 507px;
+    padding-left: 554px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: skewX(1deg);
 }
 
 #bot_shelf5 {
-      width: 37px;
-   height: 131px;
+    width: 37px;
+    height: 131px;
 
-   padding-top: 441px;
-   padding-left: 674px;
-   position: absolute; top:0; left: 0;
+    padding-top: 441px;
+    padding-left: 674px;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 
 #bot_shelf6 {
-   width: 108px;
-   height: 65px;
+    width: 108px;
+    height: 65px;
 
-   padding-top: 507px;
-   padding-left: 712px;
-   position: absolute; top:0; left: 0;
+    padding-top: 507px;
+    padding-left: 712px;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 
 #bot_shelf7 {
-   width: 59px;
-   height: 65px;
+    width: 59px;
+    height: 65px;
 
-   padding-top: 507px;
-   padding-left: 772px;
-   position: absolute; top:0; left: 0;
-   transform: skewX(-1deg);
+    padding-top: 507px;
+    padding-left: 772px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: skewX(-1deg);
 }
 
 #cap1 {
-   width: 50px;
-   height: 18px;
+    width: 50px;
+    height: 18px;
 
-   padding-top: 573px;
-   padding-left: 362px;
-   position: absolute; top:0; left: 0;
-   transform: skewX(1deg); 
+    padding-top: 573px;
+    padding-left: 362px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: skewX(1deg);
 }
 
 #cap2 {
-   width: 50px;
-   height: 18px;
+    width: 50px;
+    height: 18px;
 
-   padding-top: 573px;
-   padding-left: 411px;
-   position: absolute; top:0; left: 0;
-   transform: skewX(1deg); 
+    padding-top: 573px;
+    padding-left: 411px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: skewX(1deg);
 }
 
 #cap3 {
-   width: 50px;
-   height: 18px;
+    width: 50px;
+    height: 18px;
 
-   padding-top: 573px;
-   padding-left: 460px;
-   position: absolute; top:0; left: 0;
-   transform: skewX(1deg); 
+    padding-top: 573px;
+    padding-left: 460px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: skewX(1deg);
 }
 
 #cap4 {
-   width: 50px;
-   height: 18px;
+    width: 50px;
+    height: 18px;
 
-   padding-top: 573px;
-   padding-left: 509px;
-   position: absolute; top:0; left: 0;
-   transform: skewX(1deg); 
+    padding-top: 573px;
+    padding-left: 509px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: skewX(1deg);
 }
 
 #cap5 {
-   width: 50px;
-   height: 18px;
+    width: 50px;
+    height: 18px;
 
-   padding-top: 573px;
-   padding-left: 558px;
-   position: absolute; top:0; left: 0;
-   transform: skewX(1deg); 
+    padding-top: 573px;
+    padding-left: 558px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: skewX(1deg);
 }
 
 #cap5 {
-   width: 50px;
-   height: 18px;
+    width: 50px;
+    height: 18px;
 
-   padding-top: 573px;
-   padding-left: 558px;
-   position: absolute; top:0; left: 0;
-   transform: skewX(1deg); 
+    padding-top: 573px;
+    padding-left: 558px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: skewX(1deg);
 }
 
 #cap6 {
-   width: 50px;
-   height: 18px;
+    width: 50px;
+    height: 18px;
 
-   padding-top: 573px;
-   padding-left: 607px;
-   position: absolute; top:0; left: 0;
-   transform: skewX(1deg); 
+    padding-top: 573px;
+    padding-left: 607px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: skewX(1deg);
 }
 
 #cap7 {
-   width: 50px;
-   height: 18px;
+    width: 50px;
+    height: 18px;
 
-   padding-top: 573px;
-   padding-left: 656px;
-   position: absolute; top:0; left: 0;
-   transform: skewX(1deg); 
+    padding-top: 573px;
+    padding-left: 656px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: skewX(1deg);
 }
 
 #cap8 {
-   width: 50px;
-   height: 18px;
+    width: 50px;
+    height: 18px;
 
-   padding-top: 573px;
-   padding-left: 705px;
-   position: absolute; top:0; left: 0;
-   transform: skewX(1deg); 
+    padding-top: 573px;
+    padding-left: 705px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: skewX(1deg);
 }
 
 #cap9 {
-   width: 50px;
-   height: 18px;
+    width: 50px;
+    height: 18px;
 
-   padding-top: 573px;
-   padding-left: 754px;
-   position: absolute; top:0; left: 0;
-   transform: skewX(1deg); 
+    padding-top: 573px;
+    padding-left: 754px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: skewX(1deg);
 }
 
 #cap10 {
-   width: 23px;
-   height: 18px;
+    width: 23px;
+    height: 18px;
 
-   padding-top: 573px;
-   padding-left: 803px;
-   position: absolute; top:0; left: 0;
+    padding-top: 573px;
+    padding-left: 803px;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 
 .material_list {
-   margin-top: 102px;
-   position: absolute;
-  display: flex;
-  justify-content: flex-start;
-  width: 251px;
-  flex-wrap: wrap;
+    margin-top: 102px;
+    position: absolute;
+    display: flex;
+    justify-content: flex-start;
+    width: 251px;
+    flex-wrap: wrap;
 }
 
 .material {
-   width: 45%;
-   margin: 5px;
+    width: 113px;
+    height: 113px;
+    margin: 5px;
+}
+
+#editor_top_shelf {
+    width: 28px;
+    height: 28px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translatex(666px) translatey(136px);
+}
+
+#editor_tall_shelf {
+    width: 28px;
+    height: 28px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translatex(764px) translatey(155px);
+}
+
+#editor_mid_shelf {
+    width: 28px;
+    height: 28px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translatex(386px) translatey(237px);
+}
+
+#editor_skirting {
+    width: 28px;
+    height: 28px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translatex(675px) translatey(357px);
+}
+
+
+#editor_tabletop {
+    width: 28px;
+    height: 28px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translatex(506px) translatey(417px);
+}
+
+#editor_bot_shelf {
+    width: 28px;
+    height: 28px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translatex(379px) translatey(502px);
+}
+
+#emblem {
+  width: auto;
+  max-width: 400px;
+  height: auto;
+  max-height: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translatex(533px) translatey(5px);
+}
+
+/* PRELOADER */
+.preloader {
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  overflow: hidden;
+  background:  #192531;
+  z-index: 1001;
+}
+
+.preloader__image {
+  position: relative;
+  top: 43%;
+  left: 38%;
+  width: auto;
+  max-width: 400px;
+  height: auto;
+  max-height: 100px;
+}
+
+.loaded_hiding .preloader {
+  transition: 0.3s opacity;
+  opacity: 0;
+}
+
+.loaded .preloader {
+  display: none;
 }

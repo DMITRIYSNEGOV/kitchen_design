@@ -54,3 +54,31 @@ function changeBotShelf(img) {
         bot_shelf.src = src;
     }
 }
+
+function getListShelfMaterial(f) {
+    var materialList = document.getElementsByClassName("material_list")[0]
+    materialList.innerHTML = ''
+
+        for (let i = 1; i <= 5; i++) {
+            var image = Object.assign(document.createElement("img"), 
+                {src: "resources/material_facade" + i +".jpg", 
+                className: "material", 
+                onclick: f });
+            materialList.appendChild(image)
+        }
+    
+}
+
+function getListTabletopMaterial(f) {
+    var materialList = document.getElementsByClassName("material_list")[0]
+    materialList.innerHTML = ''
+
+        for (let i = 1; i <= 4; i++) {
+            var image = Object.assign(document.createElement("img"), 
+                {src: "resources/material_tabletop" + i +".jpg", 
+                className: "material", 
+                onclick: f });
+            materialList.appendChild(image)
+        }
+    
+}

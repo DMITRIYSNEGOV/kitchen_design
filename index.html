@@ -2,64 +2,70 @@
 <html>
 
 <head>
-    <title>design</title>
+    <title>VISUAL INTERIOR DESIGN</title>
     <link rel="stylesheet" href="style.css">
     <script src="main.js"></script>
 </head>
 
 <body>
+    <div class="preloader">
+        <img class="preloader__image" src="resources/emblem.jpg">
+    </div>
+    <img id="emblem" src="resources/emblem.jpg">
     <div class="kitchen">
         <img class="pattern" src="resources/pattern.png">
-
-        <img id="top_shelf1" src="resources/wood.jpg">
-        <img id="top_shelf2" src="resources/wood.jpg">
-        <img id="top_shelf3" src="resources/wood.jpg">
-        <img id="top_shelf4" src="resources/wood.jpg">
-
-        <img id="tall_shelf1" src="resources/wood.jpg">
-        <img id="tall_shelf2" src="resources/wood.jpg">
-        
-        <img id="mid_shelf1" src="resources/wood.jpg">
-        <img id="mid_shelf2" src="resources/wood.jpg">
-        <img id="mid_shelf2_2" src="resources/wood.jpg">
-        <img id="mid_shelf3" src="resources/wood.jpg">
-
-        <img id="skirting1" src="resources/wood.jpg">
-        <img id="skirting2" src="resources/wood.jpg">
-        <img id="skirting3" src="resources/wood.jpg">
-
-        <img id="tabletop1" src="resources/wood.jpg">
-        <img id="tabletop2" src="resources/wood.jpg">
-        <img id="tabletop_frame" src="resources/wood.jpg">
-
-        <img id="bot_shelf1" src="resources/wood.jpg">
-        <img id="bot_shelf2" src="resources/wood.jpg">
-        <img id="bot_shelf3" src="resources/wood.jpg">
-        <img id="bot_shelf4" src="resources/wood.jpg">
-        <img id="bot_shelf5" src="resources/wood.jpg">
-        <img id="bot_shelf6" src="resources/wood.jpg">
-        <img id="bot_shelf7" src="resources/wood.jpg">
-
-        <img id="cap1" src="resources/wood.jpg">
-        <img id="cap2" src="resources/wood.jpg">
-        <img id="cap3" src="resources/wood.jpg">
-        <img id="cap4" src="resources/wood.jpg">
-        <img id="cap5" src="resources/wood.jpg">
-        <img id="cap6" src="resources/wood.jpg">
-        <img id="cap7" src="resources/wood.jpg">
-        <img id="cap8" src="resources/wood.jpg">
-        <img id="cap9" src="resources/wood.jpg">
-        <img id="cap10" src="resources/wood.jpg">
-
+        <img id="top_shelf1" src="resources/material_facade2.jpg">
+        <img id="top_shelf2" src="resources/material_facade2.jpg">
+        <img id="top_shelf3" src="resources/material_facade2.jpg">
+        <img id="top_shelf4" src="resources/material_facade2.jpg">
+        <img id="tall_shelf1" src="resources/material_facade2.jpg">
+        <img id="tall_shelf2" src="resources/material_facade2.jpg">
+        <img id="mid_shelf1" src="resources/material_facade2.jpg">
+        <img id="mid_shelf2" src="resources/material_facade2.jpg">
+        <img id="mid_shelf2_2" src="resources/material_facade2.jpg">
+        <img id="mid_shelf3" src="resources/material_facade2.jpg">
+        <img id="skirting1" src="resources/material_tabletop1.jpg">
+        <img id="skirting2" src="resources/material_tabletop1.jpg">
+        <img id="skirting3" src="resources/material_tabletop1.jpg">
+        <img id="tabletop1" src="resources/material_tabletop1.jpg">
+        <img id="tabletop2" src="resources/material_tabletop1.jpg">
+        <img id="tabletop_frame" src="resources/material_tabletop1.jpg">
+        <img id="bot_shelf1" src="resources/material_facade2.jpg">
+        <img id="bot_shelf2" src="resources/material_facade2.jpg">
+        <img id="bot_shelf3" src="resources/material_facade2.jpg">
+        <img id="bot_shelf4" src="resources/material_facade2.jpg">
+        <img id="bot_shelf5" src="resources/material_facade2.jpg">
+        <img id="bot_shelf6" src="resources/material_facade2.jpg">
+        <img id="bot_shelf7" src="resources/material_facade2.jpg">
+        <img id="cap1" src="resources/material_facade2.jpg">
+        <img id="cap2" src="resources/material_facade2.jpg">
+        <img id="cap3" src="resources/material_facade2.jpg">
+        <img id="cap4" src="resources/material_facade2.jpg">
+        <img id="cap5" src="resources/material_facade2.jpg">
+        <img id="cap6" src="resources/material_facade2.jpg">
+        <img id="cap7" src="resources/material_facade2.jpg">
+        <img id="cap8" src="resources/material_facade2.jpg">
+        <img id="cap9" src="resources/material_facade2.jpg">
+        <img id="cap10" src="resources/material_facade2.jpg">
         <img id="gas_stove_and_sink" src="resources/gas_stove_and_sink.png">
     </div>
-
     <div class="material_list">
-        <img class="material" src="resources/wood1.jpg" onclick="changeTallShelf(this)" />
-        <img class="material" src="resources/wood.jpg" onclick="changeTallShelf(this)" />
-        <img class="material" src="resources/wood1.jpg" onclick="changeBotShelf(this)" />
-        <img class="material" src="resources/wood.jpg" onclick="changeBotShelf(this)" />
     </div>
+    <img id="editor_top_shelf" src="resources/pencil.svg" onclick="getListShelfMaterial( function() {changeTopShelf(this)} )">
+    <img id="editor_tall_shelf" src="resources/pencil.svg" onclick="getListShelfMaterial( function() {changeTallShelf(this)} )">
+    <img id="editor_mid_shelf" src="resources/pencil.svg" onclick="getListShelfMaterial( function() {changeMiddleShelf(this)} )">
+    <img id="editor_skirting" src="resources/pencil.svg" onclick="getListTabletopMaterial( function() {changeSkirting(this)} )">
+    <img id="editor_tabletop" src="resources/pencil.svg" onclick="getListTabletopMaterial( function() {changeTabletop(this)} )">
+    <img id="editor_bot_shelf" src="resources/pencil.svg" onclick="getListShelfMaterial( function() {changeBotShelf(this)} )">
+    <script>
+    window.onload = setTimeout(function() {
+        document.body.classList.add('loaded_hiding');
+        window.setTimeout(function() {
+            document.body.classList.add('loaded');
+            document.body.classList.remove('loaded_hiding');
+        }, 500);
+    }, 3000);
+    </script>
 </body>
 
 </html>
